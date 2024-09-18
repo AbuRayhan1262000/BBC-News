@@ -72,3 +72,102 @@
     display:block;
    }
 /* navbar area end */
+/* hero area start */
+.hero-area{
+    height: 300px;
+    background-color: #e6e8ea;
+
+}
+.hero-area .hero-container{
+    height: 250px;
+    width: 1200px;
+    background-color:#b80000;
+    margin: 0 auto;
+    position: relative;
+}
+.hero-container .title{
+    position: absolute;
+    height:100px;
+    width:140px;
+    background-color: #b80000;
+    top:100px;
+    left: 200px;
+}
+.hero-container .title .bbc-heading{
+    height: 40px;
+    width:140px;
+    display:inline-flex;
+    background-color: #b80000;
+}
+.hero-container .title .bbc-heading h1{
+    background-color: white;
+    margin: 3px 3px;
+    padding: 0px 5px;
+    color:#b80000;
+}
+.hero-container .title .heading-1 h1{
+   margin-left:;
+   color:white;
+   font-size: 40px;
+}
+.hero-container .hero-para{
+    position:absolute;
+    left:600px;
+    top:100px;
+    text-align: center;
+}
+.hero-container .hero-para p{
+    font-size:40px;
+}
+.hero-container .hero-para p a{
+    color:white;
+    font-family: unicode;
+}
+/* hero area end */
+/* rajniti area start */
+.rajniti-area{
+    height:1000px;
+    background-color:;
+}
+.rajniti-area .rajniti-container{
+    height:1000px;
+    width: 1200px;
+    background-color:;
+    margin: 0 auto;
+
+}
+.rajniti-container .top-section{
+    height:485px;
+    width: 1200px;
+    background-color:;
+    display: flex;
+    margin-top: 10px;
+}
+.rajniti-container .top-section .single-section{
+    height:475px;
+    width:290px;
+    margin:5px 5px;
+    background-color:;
+}
+.top-section .single-section img{
+    height:235px;
+    width: 290px;
+}
+.rajniti-container .bottom-section{
+    height:485px;
+    width: 1200px;
+    background-color:;
+    display: flex;
+    margin:10px 0px;
+}
+.rajniti-container .bottom-section .single-section{
+    height:475px;
+    width:290px;
+    margin:5px 5px;
+    background-color:;
+}
+.bottom-section .single-section img{
+    height:235px;
+    width: 290px;
+}
+/* rajniti area end */
