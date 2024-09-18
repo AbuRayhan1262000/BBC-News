@@ -1,0 +1,74 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+@font-face {
+    font-family:"unicode" ;
+    src: url(./Fonts/Li\ Alinur\ Shishir\ Unicode.ttf);
+}
+.header-area{
+    height:70px;
+    background-color:#b80000;
+}
+.header-area .header-container{
+    width: 1200px;
+    height: 70px;
+    background-color: #b80000;
+    margin: 0 auto;
+}
+.header-area .header-container .header-logo{
+    height: 70px;
+    width: 500px;
+    background-color: #b80000;
+}
+.header-area .header-container .header-logo .bg{
+    background-color:white;
+    padding:3px 3px;
+    color:#b80000;
+}
+.header-area .header-container .header-logo h1{
+    display:inline-flex;
+    color:white;
+    margin:12px 2px;
+    font-family:;
+}
+/* navbar area start */
+   .navbar-area {
+    height: 50px;
+    background-color:#FFFFFF;
+    box-shadow: 2px 2px 1px whitesmoke inset;
+    border: 1px solid whitesmoke;
+   }
+   .navbar-area .navbar-container{
+    height: 50px;
+    width: 1200px;
+    background-color:;
+    margin:0 auto;
+   }
+   .navbar-container .menu ul{
+    display: flex;
+   }
+   .navbar-container .menu ul li{
+    margin: 15px 15px;
+   }
+   .navbar-container .menu ul li a{
+    position: relative;
+    font-family:unicode ;
+    font-size:18px;
+   }
+   .navbar-container .menu ul li a::before{
+    position: absolute;
+    content:"";
+    height: 4px;
+    width: 100%;
+    background-color: #b80000;
+    top:29px;
+    display:none;
+   }
+   .navbar-container .menu ul li a:hover::before{
+    display:block;
+   }
+/* navbar area end */
